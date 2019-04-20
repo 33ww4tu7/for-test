@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+.header {
+    margin-top: 78px;
+    display: flex;
+}
+.header__sgn{
+
+}
+.header__Mail{
+    color: #5b4295;
+}
+.header__left{
+    width: 400px;
+    margin:0 20% 0 10%;
+}
+.header__left > h1{
+    margin:0 0 0.7rem 0;
+}
+.header__right{
+    width: 800px;
+    height: 50px;
+}
+#button_header{
+    background-color: #5c479b;
+    background-size: 100%;
+border-radius: 20px;
+    width: 80px;
+    height: 30px;
+}
+
+#last_li{
+    margin-left: 5%;
+}
+ul.hr li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+ ul :hover{
+     border-radius: 10px;
+     background: #0000d0 linear-gradient(to top, #0000d0, blueviolet);
+ /
+    padding: 2px;
+}
+
+.main__image{
+
+    text-align: center;
+    background-image: url("mainImg.jpg");
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    z-index: 0;
+}
+.main__underImageText{
+    margin-top: 200px;
+
+}
+.main__vertLine{
+    height: 300px;
+    margin-top: -140px;
+    z-index: 5;
+    border-left:1px solid gray; padding-left:10px;
+}
+.main__vertLine_second{
+    height: 500px;
+    margin:40px 5px 5px 5px;
+    z-index: 5;
+    border-left:1px solid gray; padding-left:10px;
+}
+.main__afterSucrityText{
+    width: 300px;
+    margin:0 0 0 14em ;
+}
+.main__imageBox{
+
+}
+
+.main__title{
+    top: 100px;
+display: flow;
+    text-align: center;
+z-index: 1;
+}
+.main__securityType{
+    margin-top: 120px;
+    display:flex;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.main__securityType ,.main__securityType_firstType ,.main__securityType_secondType ,.main__securityType_thirdType{
+    display: flex;
+
+}
+.main__securityType{
+    justify-content: space-around;
+}
+.main__groupFromMit{
+    text-align: left;
+    margin-left: 350px;
+}
+.main__BostonHerald{
+
+}
